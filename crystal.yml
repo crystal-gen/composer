@@ -1,6 +1,6 @@
 name: composer
 version: 0.1.0
-description: '[Composer](http://getcomposer.com) generator for [Crystal](http://crystal.sh)'
+description: '[Composer](http://getcomposer.org) generator for [Crystal](http://crystal.sh)'
 
 author:
   name: Chris Tate
