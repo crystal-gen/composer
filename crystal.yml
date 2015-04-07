@@ -7,6 +7,34 @@ author:
   url: http://studiotate.com
 copyright: 2015 Studio Tate
 
+gen:
+  file:
+    composer:
+      dest: composer.json
+      type: json
+  spec:
+    keywords:
+      key: keyword
+      type: array
+    license:
+      type: string
+    homepage:
+      type: string
+    require:
+      key: key
+      type: object
+      value: value
+    require-dev:
+      key: key
+      type: object
+      value: value
+    support:
+      key: key
+      type: object
+      value: value
+    time:
+      type: string
+
 generators:
   project:
     version: latest

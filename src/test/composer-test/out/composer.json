@@ -1,0 +1,25 @@
+{
+	"name": "composer-test",
+	"version": "0.1.0",
+	"description": "composer test",
+	"authors": [
+		"[object Object]"
+	],
+	"keywords": [
+		"logging",
+		"events",
+		"database",
+		"redis",
+		"templating"
+	],
+	"homepage": "http://example.org",
+	"time": "2015-04-06",
+	"license": "MIT",
+	"support": {
+		"email": "tsupport@example.org",
+		"irc": "irc://irc.freenode.org/composer"
+	},
+	"require": {
+		"monolog/monolog": "1.0.*"
+	}
+}

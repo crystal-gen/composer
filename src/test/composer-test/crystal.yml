@@ -1,0 +1,29 @@
+name: composer-test
+version: 0.1.0
+description: composer test
+
+author:
+  name: Test User
+  email: test.user@example.org
+  url: http://example.org
+copyright: 2015 Example, Inc.
+
+generators:
+  composer:
+    spec:
+      type: library
+      keywords:
+        - logging
+        - events
+        - database
+        - redis
+        - templating
+      homepage: 'http://example.org'
+      license: MIT
+      require:
+        monolog/monolog: '1.0.*'
+      support:
+        email: 'tsupport@example.org'
+        irc: "irc://irc.freenode.org/composer"
+      time: '2015-04-06'
+    version: latest
