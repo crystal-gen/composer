@@ -11,19 +11,10 @@ copyright: 2015 Example, Inc.
 generators:
   composer:
     spec:
-      type: library
       keywords:
         - logging
         - events
         - database
         - redis
         - templating
-      homepage: 'http://example.org'
-      license: MIT
-      require:
-        monolog/monolog: '1.0.*'
-      support:
-        email: 'tsupport@example.org'
-        irc: "irc://irc.freenode.org/composer"
-      time: '2015-04-06'
     version: latest

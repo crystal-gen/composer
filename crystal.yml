@@ -13,32 +13,8 @@ repository:
   url: https://github.com/studiotate/crystal-composer
 
 gen:
-  file:
-    composer:
-      dest: composer.json
-      type: json
-  spec:
-    keywords:
-      key: keyword
-      type: array
-    license:
-      type: string
-    homepage:
-      type: string
-    require:
-      key: key
-      type: object
-      value: value
-    require-dev:
-      key: key
-      type: object
-      value: value
-    support:
-      key: key
-      type: object
-      value: value
-    time:
-      type: string
+  composer.json:
+    encoder: json
 
 generators:
   project:
